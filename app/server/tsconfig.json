@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "CommonJS",
+    "lib": [
+      "ES2019",
+      "DOM"
+    ],
+    "moduleResolution": "Node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "@server/*": [
+        "src/*"
+      ],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
