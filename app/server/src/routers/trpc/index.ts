@@ -4,7 +4,7 @@ import { router } from '@server/libs/trpc'
 import baseRouter from './base'
 
 const appRouter = router({
-  base: baseRouter
+  base: baseRouter,
 })
 
 export default appRouter

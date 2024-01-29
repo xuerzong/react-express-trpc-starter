@@ -10,9 +10,20 @@
   "scripts": {
     "dev": "turbo dev",
     "dev:client": "turbo run dev --scope client",
-    "dev:server": "turbo run dev --scope server"
+    "dev:server": "turbo run dev --scope server",
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
+    "husky": "^9.0.6",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.4",
     "turbo": "^1.11.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write"
+    ]
   }
 }

@@ -1,6 +1,6 @@
-import express from "express";
+import express from 'express'
 import cors from 'cors'
-import { useApiRouter, useTrpcRouter } from "./routers";
+import { useApiRouter, useTrpcRouter } from './routers'
 
 export const run = () => {
   const app = express()

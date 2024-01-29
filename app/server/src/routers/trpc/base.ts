@@ -26,7 +26,7 @@ const urlRouter = router({
     )
     .mutation(async ({ input }) => {
       return { name: input.name }
-    })
+    }),
 })
 
 export default urlRouter

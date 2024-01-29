@@ -2,10 +2,7 @@
   "compilerOptions": {
     "target": "ES2015",
     "module": "CommonJS",
-    "lib": [
-      "ES2019",
-      "DOM"
-    ],
+    "lib": ["ES2019", "DOM"],
     "moduleResolution": "Node",
     "strict": true,
     "resolveJsonModule": true,
@@ -16,12 +13,8 @@
     "baseUrl": ".",
     "outDir": "dist",
     "paths": {
-      "@server/*": [
-        "src/*"
-      ],
-    }
+      "@server/*": ["src/*"],
+    },
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"],
 }
