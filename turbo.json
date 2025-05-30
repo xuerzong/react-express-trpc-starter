@@ -1,9 +1,8 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "pipeline": {
-    "dev": {
-      "cache": false,
-      "persistent": true
-    }
+  "tasks": {
+    "dev": { "cache": false, "persistent": true },
+    "dev:client": { "cache": false },
+    "dev:server": { "cache": false }
   }
 }

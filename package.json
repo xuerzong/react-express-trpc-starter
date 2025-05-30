@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "app/*"
+    "apps/*"
   ],
   "scripts": {
     "dev": "turbo dev",
@@ -16,14 +16,15 @@
     "lint-staged": "lint-staged"
   },
   "devDependencies": {
-    "husky": "^9.0.6",
-    "lint-staged": "^15.2.0",
-    "prettier": "^3.2.4",
-    "turbo": "^1.11.3"
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "npm@1.22.19"
 }
