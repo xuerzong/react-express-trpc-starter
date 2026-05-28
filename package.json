@@ -17,14 +17,14 @@
   },
   "devDependencies": {
     "husky": "^9.1.7",
-    "lint-staged": "^16.1.0",
-    "prettier": "^3.5.3",
-    "turbo": "^2.5.3"
+    "lint-staged": "^17.0.5",
+    "prettier": "^3.8.3",
+    "turbo": "^2.9.16"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "prettier --write"
     ]
   },
-  "packageManager": "npm@1.22.19"
+  "packageManager": "npm@11.16.0"
 }
