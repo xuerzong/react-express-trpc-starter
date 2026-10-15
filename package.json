@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "husky": "^9.1.7",
-    "lint-staged": "^17.3.0",
-    "prettier": "^3.9.6",
-    "turbo": "^2.10.8"
+    "lint-staged": "^17.6.0",
+    "prettier": "^3.9.10",
+    "turbo": "^2.11.7"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
